@@ -1,8 +1,17 @@
-excerpt_separator: ""
+---
+title: Awesome
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+excerpt_separator: ''
 pygments: true
 markdown: kramdown
 url: http://nelah.github.io
-title: Awesome
 email: 
 author: nelah
 description: My awesome new site
