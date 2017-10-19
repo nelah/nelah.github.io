@@ -1,0 +1,20 @@
+---
+hide_body: true
+fields:
+- type: text
+  name: text
+  label: Text
+  description: Helper text
+  config:
+    required: true
+- type: select
+  name: pick_one
+  config:
+    source:
+      type: simple
+    options:
+    - One
+    - Two
+    - Three
+  label: Pick one
+  hidden: true
